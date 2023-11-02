@@ -1,0 +1,58 @@
+
+.container {
+  max-width: 1016px;
+  margin: 50px auto;
+
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px; 
+  justify-content: center; 
+}
+.card-menu{
+  margin: 20px;
+  width: 360px;
+}
+
+.menu img {
+  width: 360px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header p{
+  background-color: orange;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+header h2{
+  font-weight: normal;
+}
+h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  border-bottom: 4px solid orange;
+}
+
+button{
+  border: none;
+  background-color: orange;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 3px;
+  margin-right: 10px;
+  transition: 0.7s ease;
+
+}
+button:hover{
+  background-color: rgb(192, 125, 0);
+  cursor: pointer;
+}
